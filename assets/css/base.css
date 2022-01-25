@@ -1,0 +1,78 @@
+:root{
+    --primary-color: #ba71da;
+    --white-color: #fff;
+    --text-color: #9a9a9a;
+    --heading-text-color:#555;
+    --turquoise-color:#15b9d4;
+
+    --button-green: #4db848;
+    --button-blue: #135eac;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* HACK 1rem = 10px => font-size: 62.5%; */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* Sub content in navigation */
+
+.nav__list-sub-nav .hot__content a::after{
+    content: "HOT";
+    background-color:  #f76570 ;
+    color: var(--white-color);
+    border-radius: 2px;
+    font-size: 0.9rem;
+    padding: 1px 6px;
+    float: right;
+}
+
+.nav__list-sub-nav .best__content a::after{
+    content: "BEST";
+    background-color:  #14b9d5 ;
+    color: var(--white-color);
+    border-radius: 2px;
+    font-size: 0.9rem;
+    padding: 1px 6px;
+    float: right;
+}
+
+.nav__list-sub-nav .new__content a::after{
+    content: "NEW";
+    background-color:  #14b9d5 ;
+    color: var(--white-color);
+    border-radius: 2px;
+    font-size: 0.9rem;
+    padding: 1px 6px;
+    float: right;
+}
+/* animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+     to{
+        opacity: 1;
+     }
+}
+
+@keyframes rotate
+{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+

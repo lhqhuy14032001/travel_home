@@ -1,0 +1,8 @@
+.header__top--search{
+    background: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538)  center / cover no-repeat;
+    padding-top: 22%;
+}
+
+.header__top--search-title p{
+    font-size: 1rem;
+}
